@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="testRunner.TestRunner" time="90.273" tests="52" errors="8" skipped="18" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.17+10-LTS-269"/>
+    <property name="sun.boot.library.path" value="C:\Users\dell\Java\jdk-11.0.17\bin"/>
+    <property name="user.country.format" value="FI"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\dell\IdeaProjects\LumaProject2023"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\dell\IdeaProjects\LumaProject2023"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.17+10-LTS-269"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\dell\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\dell\Java\apache-maven-3.8.7\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\dell\Java\jdk-11.0.17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\dell\AppData\Local\rasjani\WebDriverManager\bin;C:\Program Files\Git\cmd;C:\Python3.9\Scripts;C:\Users\dell\Java\apache-maven-3.8.7\bin;C:\Users\dell\Java\jdk-11.0.17\bin;C:\chromedriver.exe;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\dell\anaconda3;C:\Users\dell\anaconda3\Library\mingw-w64\bin;C:\Users\dell\anaconda3\Library\usr\bin;C:\Users\dell\anaconda3\Library\bin;C:\Users\dell\anaconda3\Scripts;C:\Python3.9\Scripts\;C:\Python3.9\;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;C:\Users\dell\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dell\AppData\Roaming\npm;C:\Users\dell\AppData\Local\GitHubDesktop\bin;C:\Users\dell\AppData\Local\rasjani\WebDriverManager\bin\chromedriver.exe;C:\Users\dell\Java\jdk-11.0.17\bin;C:\Users\dell\Java\apache-maven-3.8.7\bin;;."/>
+    <property name="maven.conf" value="C:\Users\dell\Java\apache-maven-3.8.7/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\dell\Java\apache-maven-3.8.7\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\dell"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="dell"/>
+    <property name="java.class.path" value="C:\Users\dell\Java\apache-maven-3.8.7\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Users\dell\Java\jdk-11.0.17"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.17"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="maven.home" value="C:\Users\dell\Java\apache-maven-3.8.7"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given I am on the homepage" classname="Scenario: Common Test Steps" time="0.005"/>
+  <testcase name="When I click the signin link" classname="Scenario: Common Test Steps" time="0"/>
+  <testcase name="Scenario: Common Test Steps" classname="Scenario: Common Test Steps" time="0.001"/>
+  <testcase name="Given I am on the landing screen" classname="Scenario: Common Test Steps for new user account" time="0"/>
+  <testcase name="When I click on the create account link" classname="Scenario: Common Test Steps for new user account" time="0"/>
+  <testcase name="Scenario: Common Test Steps for new user account" classname="Scenario: Common Test Steps for new user account" time="0"/>
+  <testcase name="Given I am on the landing screen" classname="Scenario: Verify that new user can create account" time="0"/>
+  <testcase name="When I click on the create account link" classname="Scenario: Verify that new user can create account" time="0"/>
+  <testcase name="And I enter first name" classname="Scenario: Verify that new user can create account" time="0"/>
+  <testcase name="And I enter lastname" classname="Scenario: Verify that new user can create account" time="0"/>
+  <testcase name="And I sign up for news letter" classname="Scenario: Verify that new user can create account" time="0"/>
+  <testcase name="And I enter email" classname="Scenario: Verify that new user can create account" time="0"/>
+  <testcase name="And I enter new user password" classname="Scenario: Verify that new user can create account" time="0"/>
+  <testcase name="And I confirm password" classname="Scenario: Verify that new user can create account" time="0"/>
+  <testcase name="When I click the create aacount button" classname="Scenario: Verify that new user can create account" time="0"/>
+  <testcase name="Then my account should be created successfully" classname="Scenario: Verify that new user can create account" time="0.014">
+    <failure message="expected:&lt;Welcome, John Joe![ ]&gt; but was:&lt;Welcome, John Joe![]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<Welcome, John Joe![ ]> but was:<Welcome, John Joe![]>
+]]></failure>
+  </testcase>
+  <testcase name="Scenario: Verify that new user can create account" classname="Scenario: Verify that new user can create account" time="0.014">
+    <failure message="expected:&lt;Welcome, John Joe![ ]&gt; but was:&lt;Welcome, John Joe![]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<Welcome, John Joe![ ]> but was:<Welcome, John Joe![]>
+]]></failure>
+  </testcase>
+  <testcase name="Given I am on the homepage" classname="| davidzoe@gmail.com | Testing123 | The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later. |" time="0.001">
+    <error message="unknown error: failed to change window state to &apos;normal&apos;, current state is &apos;maximized&apos;&#10;  (Session info: chrome=109.0.5414.120)&#10;  (Driver info: chromedriver=109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 540 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;ebou-touray&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61680}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}), userDataDir=C:\Users\dell\AppData\Local\Temp\scoped_dir28848_759483319}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=109.0.5414.120, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: d1e26ee76e1efbdd1da916402ef23872" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=109.0.5414.120)
+  (Driver info: chromedriver=109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 540 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'ebou-touray', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61680}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}), userDataDir=C:\Users\dell\AppData\Local\Temp\scoped_dir28848_759483319}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=109.0.5414.120, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: d1e26ee76e1efbdd1da916402ef23872
+</error>
+    <system-out><![CDATA[
+  Scenario: Verify that new user can create account &amp#27;[90m# CreateNewUserAccount.feature:6&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter first name&amp#27;[0m                          &amp#27;[90m# CreateNewUser.iEnterFirstName()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter lastname&amp#27;[0m                            &amp#27;[90m# CreateNewUser.iEnterLastname()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI sign up for news letter&amp#27;[0m                   &amp#27;[90m# CreateNewUser.iSignUpForNewsLetter()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter email&amp#27;[0m                               &amp#27;[90m# CreateNewUser.iEnterEmail()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter new user password&amp#27;[0m                   &amp#27;[90m# CreateNewUser.iEnterNewUserPassword()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI confirm password&amp#27;[0m                          &amp#27;[90m# CreateNewUser.iConfirmPassword()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click the create aacount button&amp#27;[0m          &amp#27;[90m# CreateNewUser.iClickTheCreateAacountButton()&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mmy account should be created successfully&amp#27;[0m  &amp#27;[90m# CreateNewUser.myAccountShouldBeCreatedSuccessfully()&amp#27;[0m
+      &amp#27;[31morg.junit.ComparisonFailure: expected:<Welcome, John Joe![ ]> but was:<Welcome, John Joe![]>
+      	at org.junit.Assert.assertEquals(Assert.java:117)
+      	at org.junit.Assert.assertEquals(Assert.java:146)
+      	at Pages.CreateNewUserPage.AssertSuccessfullyAccountCreation(CreateNewUserPage.java:73)
+      	at stepDefinitions.CreateNewUser.myAccountShouldBeCreatedSuccessfully(CreateNewUser.java:103)
+      	at ?.Then my account should be created successfully(CreateNewUserAccount.feature:16)
+      &amp#27;[0m
+Feature: Login
+
+  Scenario Outline: : Validate error messages for each invalid login scenario &amp#27;[90m# InvalidLoogin.feature:6&amp#27;[0m
+    #Given I am on the landing page
+    #And I click sign in
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter my "<username>"&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI type my "<password>"&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI press the login button&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get the correct "<errorMessage>"&amp#27;[0m
+
+    Examples: 
+]]></system-out>
+  </testcase>
+  <testcase name="| davidzoe@gmail.com | Testing123 | The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later. |" classname="| davidzoe@gmail.com | Testing123 | The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later. |" time="0.002">
+    <error message="unknown error: failed to change window state to &apos;normal&apos;, current state is &apos;maximized&apos;&#10;  (Session info: chrome=109.0.5414.120)&#10;  (Driver info: chromedriver=109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 540 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;ebou-touray&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61680}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}), userDataDir=C:\Users\dell\AppData\Local\Temp\scoped_dir28848_759483319}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=109.0.5414.120, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: d1e26ee76e1efbdd1da916402ef23872" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=109.0.5414.120)
+  (Driver info: chromedriver=109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 540 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'ebou-touray', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61680}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}), userDataDir=C:\Users\dell\AppData\Local\Temp\scoped_dir28848_759483319}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=109.0.5414.120, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: d1e26ee76e1efbdd1da916402ef23872
+</error>
+  </testcase>
+  <testcase name="When I click the signin link" classname="| davidzoe@gmail.com | Testing123 | The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I enter my &quot;davidzoe@gmail.com&quot;" classname="| davidzoe@gmail.com | Testing123 | The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later. |" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Background:                    &amp#27;[90m# InvalidLoogin.feature:2&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI am on the homepage&amp#27;[0m   &amp#27;[90m# Common.iAmOnTheHomepage()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'normal', current state is 'maximized'
+        (Session info: chrome=109.0.5414.120)
+        (Driver info: chromedriver=109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 540 milliseconds
+      Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+      System info: host: 'ebou-touray', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61680}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}), userDataDir=C:\Users\dell\AppData\Local\Temp\scoped_dir28848_759483319}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=109.0.5414.120, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+      Session ID: d1e26ee76e1efbdd1da916402ef23872
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+      	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:882)
+      	at stepDefinitions.Common.iAmOnTheHomepage(Common.java:20)
+      	at ?.Given I am on the homepage(InvalidLoogin.feature:3)
+      &amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI click the signin link&amp#27;[0m &amp#27;[90m# Common.iClickTheSigninLink()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="And I type my &quot;Testing123&quot;" classname="| davidzoe@gmail.com | Testing123 | The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I press the login button" classname="| davidzoe@gmail.com | Testing123 | The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I should get the correct &quot;The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.&quot;" classname="| davidzoe@gmail.com | Testing123 | The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I am on the homepage" classname="| davidzoe@gmail.com | Testing123! | The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later. |" time="0"/>
+  <testcase name="When I click the signin link" classname="| davidzoe@gmail.com | Testing123! | The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later. |" time="0"/>
+  <testcase name="When I enter my &quot;davidzoe@gmail.com&quot;" classname="| davidzoe@gmail.com | Testing123! | The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later. |" time="0"/>
+  <testcase name="And I type my &quot;Testing123!&quot;" classname="| davidzoe@gmail.com | Testing123! | The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later. |" time="0"/>
+  <testcase name="When I press the login button" classname="| davidzoe@gmail.com | Testing123! | The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later. |" time="0"/>
+  <testcase name="Then I should get the correct &quot;The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.&quot;" classname="| davidzoe@gmail.com | Testing123! | The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later. |" time="0"/>
+  <testcase name="| davidzoe@gmail.com | Testing123! | The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later. |" classname="| davidzoe@gmail.com | Testing123! | The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later. |" time="0"/>
+  <testcase name="Given I am on the homepage" classname="|  | Testing123! | This is a required field. |" time="0.012">
+    <error message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;ebou-touray&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'ebou-touray', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: driver.version: RemoteWebDriver
+</error>
+    <system-out><![CDATA[
+  Scenario Outline: : Validate error messages for each invalid login scenario                                                                   &amp#27;[90m# InvalidLoogin.feature:19&amp#27;[0m
+    #Given I am on the landing page
+    #And I click sign in
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter my "&amp#27;[0m&amp#27;[32m&amp#27;[1mdavidzoe@gmail.com&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                                                                                        &amp#27;[90m# InvalidLogin.iEnterMy(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI type my "&amp#27;[0m&amp#27;[32m&amp#27;[1mTesting123!&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                                                                                                 &amp#27;[90m# InvalidLogin.iTypeMy(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the login button&amp#27;[0m                                                                                                               &amp#27;[90m# InvalidLogin.iPressTheLoginButton()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get the correct "&amp#27;[0m&amp#27;[32m&amp#27;[1mThe account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# InvalidLogin.iShouldGetTheCorrect(String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="|  | Testing123! | This is a required field. |" classname="|  | Testing123! | This is a required field. |" time="0.013">
+    <error message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;ebou-touray&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'ebou-touray', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: driver.version: RemoteWebDriver
+</error>
+  </testcase>
+  <testcase name="When I click the signin link" classname="|  | Testing123! | This is a required field. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I enter my &quot;&quot;" classname="|  | Testing123! | This is a required field. |" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Background:                    &amp#27;[90m# InvalidLoogin.feature:2&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI am on the homepage&amp#27;[0m   &amp#27;[90m# Common.iAmOnTheHomepage()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+      Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+      System info: host: 'ebou-touray', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+      Driver info: driver.version: RemoteWebDriver
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:130)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+      	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:730)
+      	at stepDefinitions.Common.iAmOnTheHomepage(Common.java:18)
+      	at ?.Given I am on the homepage(InvalidLoogin.feature:3)
+      &amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI click the signin link&amp#27;[0m &amp#27;[90m# Common.iClickTheSigninLink()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="And I type my &quot;Testing123!&quot;" classname="|  | Testing123! | This is a required field. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I press the login button" classname="|  | Testing123! | This is a required field. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I should get the correct &quot;This is a required field.&quot;" classname="|  | Testing123! | This is a required field. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I am on the homepage" classname="| davidzoe@gmail.com |  | This is a required field. |" time="0">
+    <error message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;ebou-touray&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'ebou-touray', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: driver.version: RemoteWebDriver
+</error>
+    <system-out><![CDATA[
+  Scenario Outline: : Validate error messages for each invalid login scenario &amp#27;[90m# InvalidLoogin.feature:20&amp#27;[0m
+    #Given I am on the landing page
+    #And I click sign in
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter my "&amp#27;[0m&amp#27;[36m&amp#27;[1m&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                        &amp#27;[90m# InvalidLogin.iEnterMy(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI type my "&amp#27;[0m&amp#27;[36m&amp#27;[1mTesting123!&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                               &amp#27;[90m# InvalidLogin.iTypeMy(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI press the login button&amp#27;[0m                                             &amp#27;[90m# InvalidLogin.iPressTheLoginButton()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get the correct "&amp#27;[0m&amp#27;[36m&amp#27;[1mThis is a required field.&amp#27;[0m&amp#27;[36m"&amp#27;[0m                 &amp#27;[90m# InvalidLogin.iShouldGetTheCorrect(String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="| davidzoe@gmail.com |  | This is a required field. |" classname="| davidzoe@gmail.com |  | This is a required field. |" time="0">
+    <error message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;ebou-touray&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'ebou-touray', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: driver.version: RemoteWebDriver
+</error>
+  </testcase>
+  <testcase name="When I click the signin link" classname="| davidzoe@gmail.com |  | This is a required field. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I enter my &quot;davidzoe@gmail.com&quot;" classname="| davidzoe@gmail.com |  | This is a required field. |" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Background:                    &amp#27;[90m# InvalidLoogin.feature:2&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI am on the homepage&amp#27;[0m   &amp#27;[90m# Common.iAmOnTheHomepage()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+      Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+      System info: host: 'ebou-touray', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+      Driver info: driver.version: RemoteWebDriver
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:130)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+      	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:730)
+      	at stepDefinitions.Common.iAmOnTheHomepage(Common.java:18)
+      	at ?.Given I am on the homepage(InvalidLoogin.feature:3)
+      &amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI click the signin link&amp#27;[0m &amp#27;[90m# Common.iClickTheSigninLink()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="And I type my &quot;&quot;" classname="| davidzoe@gmail.com |  | This is a required field. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I press the login button" classname="| davidzoe@gmail.com |  | This is a required field. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I should get the correct &quot;This is a required field.&quot;" classname="| davidzoe@gmail.com |  | This is a required field. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I am on the home page" classname="Scenario: Verify that a valid use can login successfully" time="0"/>
+  <testcase name="When I click on sign in" classname="Scenario: Verify that a valid use can login successfully" time="0"/>
+  <testcase name="And I enter username" classname="Scenario: Verify that a valid use can login successfully" time="0.088">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=109.0.5414.120)&#10;  (Driver info: chromedriver=109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 25 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;ebou-touray&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61883}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}), userDataDir=C:\Users\dell\AppData\Local\Temp\scoped_dir9040_1657905451}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=109.0.5414.120, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: b8403dbd4f4faa6943bf5d616113fa69" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+  (Driver info: chromedriver=109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'ebou-touray', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61883}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}), userDataDir=C:\Users\dell\AppData\Local\Temp\scoped_dir9040_1657905451}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=109.0.5414.120, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: b8403dbd4f4faa6943bf5d616113fa69
+</error>
+  </testcase>
+  <testcase name="Scenario: Verify that a valid use can login successfully" classname="Scenario: Verify that a valid use can login successfully" time="0.088">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=109.0.5414.120)&#10;  (Driver info: chromedriver=109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 25 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;ebou-touray&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61883}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}), userDataDir=C:\Users\dell\AppData\Local\Temp\scoped_dir9040_1657905451}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=109.0.5414.120, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: b8403dbd4f4faa6943bf5d616113fa69" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+  (Driver info: chromedriver=109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'ebou-touray', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61883}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}), userDataDir=C:\Users\dell\AppData\Local\Temp\scoped_dir9040_1657905451}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=109.0.5414.120, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: b8403dbd4f4faa6943bf5d616113fa69
+</error>
+  </testcase>
+  <testcase name="And I enter password" classname="Scenario: Verify that a valid use can login successfully" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I click the sign in button" classname="Scenario: Verify that a valid use can login successfully" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I should be successfully logged" classname="Scenario: Verify that a valid use can login successfully" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

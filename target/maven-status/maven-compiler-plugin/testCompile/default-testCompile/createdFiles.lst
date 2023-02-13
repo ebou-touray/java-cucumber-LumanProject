@@ -1,0 +1,8 @@
+stepDefinitions\ValidLogin.class
+stepDefinitions\Common.class
+stepDefinitions\CommonNewAccount.class
+Base\TestBase.class
+stepDefinitions\InvalidLogin.class
+testRunner\TestRunner.class
+Pages\CreateNewUserPage.class
+stepDefinitions\CreateNewUser.class
