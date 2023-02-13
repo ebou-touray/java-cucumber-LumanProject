@@ -1,0 +1,1000 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9858508400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonNewAccount.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 254100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Common Test Steps",
+        "description": "",
+        "id": "common;common-test-steps",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5865667000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on the homepage",
+            "match": {
+              "location": "Common.iAmOnTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4490284900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click the signin link",
+            "match": {
+              "location": "Common.iClickTheSigninLink()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Common",
+    "description": "",
+    "id": "common",
+    "keyword": "Feature",
+    "uri": "Common.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 176700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonNewAccount.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 173700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Common Test Steps for new user account",
+        "description": "",
+        "id": "common;common-test-steps-for-new-user-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3245283600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on the landing screen",
+            "match": {
+              "location": "CommonNewAccount.iAmOnTheLandingScreen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3167851100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click on the create account link",
+            "match": {
+              "location": "CommonNewAccount.iClickOnTheCreateAccountLink()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Common",
+    "description": "",
+    "id": "common",
+    "keyword": "Feature",
+    "uri": "CommonNewAccount.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Common Steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3153670800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on the landing screen",
+            "match": {
+              "location": "CommonNewAccount.iAmOnTheLandingScreen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3473534500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click on the create account link",
+            "match": {
+              "location": "CommonNewAccount.iClickOnTheCreateAccountLink()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 522000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonNewAccount.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 154900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify that new user can create account",
+        "description": "",
+        "id": "new-user;verify-that-new-user-can-create-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1010030100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter first name",
+            "match": {
+              "location": "CreateNewUser.iEnterFirstName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 285675200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter lastname",
+            "match": {
+              "location": "CreateNewUser.iEnterLastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194943100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I sign up for news letter",
+            "match": {
+              "location": "CreateNewUser.iSignUpForNewsLetter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 463228100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter email",
+            "match": {
+              "location": "CreateNewUser.iEnterEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 371568100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter new user password",
+            "match": {
+              "location": "CreateNewUser.iEnterNewUserPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 259583200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I confirm password",
+            "match": {
+              "location": "CreateNewUser.iConfirmPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5088742100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click the create aacount button",
+            "match": {
+              "location": "CreateNewUser.iClickTheCreateAacountButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20147498200,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cWelcome, John Joe![ ]\u003e but was:\u003cWelcome, John Joe![]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat Pages.CreateNewUserPage.AssertSuccessfullyAccountCreation(CreateNewUserPage.java:73)\r\n\tat stepDefinitions.CreateNewUser.myAccountShouldBeCreatedSuccessfully(CreateNewUser.java:103)\r\n\tat ✽.Then my account should be created successfully(CreateNewUserAccount.feature:16)\r\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "my account should be created successfully",
+            "match": {
+              "location": "CreateNewUser.myAccountShouldBeCreatedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "New User",
+    "description": "",
+    "id": "new-user",
+    "keyword": "Feature",
+    "uri": "CreateNewUserAccount.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1810704000,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: failed to change window state to \u0027normal\u0027, current state is \u0027maximized\u0027\n  (Session info: chrome\u003d109.0.5414.120)\n  (Driver info: chromedriver\u003d109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}),platform\u003dWindows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 540 milliseconds\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027ebou-touray\u0027, ip: \u0027192.168.1.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.17\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:61680}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}), userDataDir\u003dC:\\Users\\dell\\AppData\\Local\\Temp\\scoped_dir28848_759483319}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d109.0.5414.120, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: d1e26ee76e1efbdd1da916402ef23872\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:882)\r\n\tat stepDefinitions.Common.iAmOnTheHomepage(Common.java:20)\r\n\tat ✽.Given I am on the homepage(InvalidLoogin.feature:3)\r\n",
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "I am on the homepage",
+            "match": {
+              "location": "Common.iAmOnTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "I click the signin link",
+            "match": {
+              "location": "Common.iClickTheSigninLink()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 695800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonNewAccount.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 231400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": ": Validate error messages for each invalid login scenario",
+        "description": "",
+        "id": "login;:-validate-error-messages-for-each-invalid-login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 8,
+                "value": "#Given I am on the landing page"
+              },
+              {
+                "line": 9,
+                "value": "#And I click sign in"
+              }
+            ],
+            "line": 10,
+            "name": "I enter my \"davidzoe@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "davidzoe@gmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "InvalidLogin.iEnterMy(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I type my \"Testing123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing123",
+                  "offset": 11
+                }
+              ],
+              "location": "InvalidLogin.iTypeMy(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I press the login button",
+            "match": {
+              "location": "InvalidLogin.iPressTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I should get the correct \"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.",
+                  "offset": 26
+                }
+              ],
+              "location": "InvalidLogin.iShouldGetTheCorrect(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2216389300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on the homepage",
+            "match": {
+              "location": "Common.iAmOnTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2239485100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click the signin link",
+            "match": {
+              "location": "Common.iClickTheSigninLink()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 151100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonNewAccount.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 162000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": ": Validate error messages for each invalid login scenario",
+        "description": "",
+        "id": "login;:-validate-error-messages-for-each-invalid-login-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5613688500,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 8,
+                "value": "#Given I am on the landing page"
+              },
+              {
+                "line": 9,
+                "value": "#And I click sign in"
+              }
+            ],
+            "line": 10,
+            "name": "I enter my \"davidzoe@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "davidzoe@gmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "InvalidLogin.iEnterMy(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 330590400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I type my \"Testing123!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing123!",
+                  "offset": 11
+                }
+              ],
+              "location": "InvalidLogin.iTypeMy(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2324062400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I press the login button",
+            "match": {
+              "location": "InvalidLogin.iPressTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3290811400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should get the correct \"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.",
+                  "offset": 26
+                }
+              ],
+              "location": "InvalidLogin.iShouldGetTheCorrect(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2579600,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027ebou-touray\u0027, ip: \u0027192.168.1.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.17\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:130)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:730)\r\n\tat stepDefinitions.Common.iAmOnTheHomepage(Common.java:18)\r\n\tat ✽.Given I am on the homepage(InvalidLoogin.feature:3)\r\n",
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "I am on the homepage",
+            "match": {
+              "location": "Common.iAmOnTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "I click the signin link",
+            "match": {
+              "location": "Common.iClickTheSigninLink()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 82300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonNewAccount.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 100500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": ": Validate error messages for each invalid login scenario",
+        "description": "",
+        "id": "login;:-validate-error-messages-for-each-invalid-login-scenario;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 8,
+                "value": "#Given I am on the landing page"
+              },
+              {
+                "line": 9,
+                "value": "#And I click sign in"
+              }
+            ],
+            "line": 10,
+            "name": "I enter my \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 12
+                }
+              ],
+              "location": "InvalidLogin.iEnterMy(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I type my \"Testing123!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing123!",
+                  "offset": 11
+                }
+              ],
+              "location": "InvalidLogin.iTypeMy(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I press the login button",
+            "match": {
+              "location": "InvalidLogin.iPressTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I should get the correct \"This is a required field.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is a required field.",
+                  "offset": 26
+                }
+              ],
+              "location": "InvalidLogin.iShouldGetTheCorrect(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 752700,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027ebou-touray\u0027, ip: \u0027192.168.1.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.17\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:130)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:730)\r\n\tat stepDefinitions.Common.iAmOnTheHomepage(Common.java:18)\r\n\tat ✽.Given I am on the homepage(InvalidLoogin.feature:3)\r\n",
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "I am on the homepage",
+            "match": {
+              "location": "Common.iAmOnTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "I click the signin link",
+            "match": {
+              "location": "Common.iClickTheSigninLink()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 203300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonNewAccount.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 123100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": ": Validate error messages for each invalid login scenario",
+        "description": "",
+        "id": "login;:-validate-error-messages-for-each-invalid-login-scenario;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 8,
+                "value": "#Given I am on the landing page"
+              },
+              {
+                "line": 9,
+                "value": "#And I click sign in"
+              }
+            ],
+            "line": 10,
+            "name": "I enter my \"davidzoe@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "davidzoe@gmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "InvalidLogin.iEnterMy(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I type my \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 11
+                }
+              ],
+              "location": "InvalidLogin.iTypeMy(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I press the login button",
+            "match": {
+              "location": "InvalidLogin.iPressTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I should get the correct \"This is a required field.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is a required field.",
+                  "offset": 26
+                }
+              ],
+              "location": "InvalidLogin.iShouldGetTheCorrect(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "InvalidLoogin.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 155400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonNewAccount.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 158500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify that a valid use can login successfully",
+        "description": "",
+        "id": "login;verify-that-a-valid-use-can-login-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7517598900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the home page",
+            "match": {
+              "location": "ValidLogin.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1988355700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on sign in",
+            "match": {
+              "location": "ValidLogin.i_click_on_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 294190900,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d109.0.5414.120)\n  (Driver info: chromedriver\u003d109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}),platform\u003dWindows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 25 milliseconds\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027ebou-touray\u0027, ip: \u0027192.168.1.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.17\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:61883}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}), userDataDir\u003dC:\\Users\\dell\\AppData\\Local\\Temp\\scoped_dir9040_1657905451}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d109.0.5414.120, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: b8403dbd4f4faa6943bf5d616113fa69\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)\r\n\tat stepDefinitions.ValidLogin.i_enter_username(ValidLogin.java:27)\r\n\tat ✽.And I enter username(ValidLogin.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I enter username",
+            "match": {
+              "location": "ValidLogin.i_enter_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I enter password",
+            "match": {
+              "location": "ValidLogin.i_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I click the sign in button",
+            "match": {
+              "location": "ValidLogin.i_click_the_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I should be successfully logged",
+            "match": {
+              "location": "ValidLogin.i_should_be_successfully_logged()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "ValidLogin.feature"
+  }
+]
